@@ -1,0 +1,277 @@
+/*==========  Elements Reset  ==========*/
+
+h1, h2, h3, h4, h5, h6, p, label, span, ul, li, .list-inline, .list-inline li
+{
+	margin: 0;
+	padding: 0;
+}
+
+a, span
+{
+	display: inline-block;
+}
+
+.form-control
+{
+	height: auto;
+}
+
+ul.list-inline-float
+{
+	@include clearfix;
+
+	li
+	{
+		display: block;
+		float: left;
+	}
+}
+
+.form-control
+{
+	&:focus
+	{
+		@include box-shadow(0, 0, 0, 0, #000);
+		@include inset-box-shadow(0, 0, 0, 0, #000);
+	}
+}
+
+textarea
+{
+	max-width: 100%;
+}
+
+:focus
+{
+	outline: none !important;
+}
+
+.img-responsive
+{
+	max-width: 100%;
+	display: inline-block;
+	height: auto;
+}
+
+.cnt-hidden
+{
+	display: none !important;
+}
+
+.hidden-xxs
+{
+	display: block;
+
+	@media(max-width: $screen-xxs-max) {
+		display: none;
+	}
+}
+
+.visible-xxs
+{
+	display: none;
+
+	@media(max-width: $screen-xxs-max) {
+		display: block;
+	}
+}
+
+.btn
+{
+	white-space: normal;
+
+	@include transition;
+}
+
+/*==========  Bootstrap Navbar Reset  ==========*/
+
+nav.navbar-reset
+{
+	border: 0;
+	background: none;
+	margin-bottom: 0;
+	min-height: 0;
+
+	.navbar-header
+	{
+		a.navbar-brand
+		{
+			display: inline-block;
+			padding: 0;
+			height: auto;
+			min-height: 0;
+		}
+	}
+}
+
+nav.navbar
+{
+	.navbar-header
+	{
+		button.navbar-toggle
+		{
+			@include transition;
+		}
+	}
+}
+
+/*==========  Bootstrap Custom Row-Col  ==========*/
+
+.row-nopad 
+{
+	margin-right: 0;
+	margin-left: 0;
+
+	> .col
+	{
+		padding: 0;
+	}
+}
+
+.row-3 
+{
+	margin-right: -3px;
+	margin-left: -3px;
+
+	> .col
+	{
+		padding: 0 3px;
+	}
+}
+
+.row-5 
+{
+	margin-right: -5px;
+	margin-left: -5px;
+
+	> .col  
+	{
+		padding: 0 5px;
+	}
+}
+
+.row-7 
+{
+	margin-right: -7px;
+	margin-left: -7px;
+
+	> .col  
+	{
+		padding: 0 7px;
+	}
+}
+
+.row-10 
+{
+	margin-right: -10px;
+	margin-left: -10px;
+
+	> .col  
+	{
+		padding: 0 10px;
+	}
+}
+
+.row-20 
+{
+	margin-right: -20px;
+	margin-left: -20px;
+
+	> .col  
+	{
+		padding: 0 20px;
+	}
+
+	@media(max-width: $screen-xs-max) {
+		margin-right: -15px;
+		margin-left: -15px;
+
+		> .col 
+		{
+			padding: 0 15px;
+		}
+	}
+}
+
+.row-30 
+{
+	margin-right: -30px;
+	margin-left: -30px;
+
+	> .col  
+	{
+		padding: 0 30px;
+	}
+
+	@media(max-width: $screen-sm-max) {
+		margin-right: -15px;
+		margin-left: -15px;
+
+		> .col 
+		{
+			padding: 0 15px;
+		}
+	}
+}
+
+.row-35
+{
+	margin-right: -35px;
+	margin-left: -35px;
+
+	> .col  
+	{
+		padding: 0 35px;
+	}
+
+	@media(max-width: $screen-xs-max) {
+		margin-right: -15px;
+		margin-left: -15px;
+
+		> .col 
+		{
+			padding: 0 15px;
+		}
+	}
+}
+
+.row-xs 
+{
+	@media(max-width: 650px) {
+		> .col {
+  			display: block;
+			float: none;
+			@include clearfix;
+			width: 100%;
+		}
+
+		> .col-6
+		{
+			width: 50%;
+			float: left;
+		}
+	}
+
+	@media(max-width: 400px) {
+		> .col-6
+		{
+			display: block;
+			float: none;
+			@include clearfix;
+			width: 100%;
+		}
+	}
+}
+
+.row-xxs 
+{
+	@media(max-width: 480px) {
+		> .col 
+		{
+  			display: block;
+			float: none;
+			@include clearfix;
+			width: 100%;
+		}
+	}
+}

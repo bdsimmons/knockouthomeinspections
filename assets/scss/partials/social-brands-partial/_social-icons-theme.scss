@@ -1,0 +1,604 @@
+/*==========  Including Social Brands Variables  ==========*/
+@import "social-icons-variables";
+
+/*==========  Social Brands Styles  ==========*/
+
+/*-----  Social Brands Defining Classes and Transitions  -----*/
+
+.hover-twitter-color,
+.hover-facebook-color, 	
+.hover-google-plus-color, 	
+.hover-pinterest-color, 	
+.hover-linkedin-color, 	
+.hover-youtube-color, 		
+.hover-vimeo-color, 		
+.hover-tumblr-color, 		
+.hover-instagram-color, 	
+.hover-flickr-color, 		
+.hover-dribbble-color,
+.hover-quora-color, 		
+.hover-foursquare-color, 	
+.hover-forrst-color, 		
+.hover-vk-color, 			
+.hover-wordpress-color, 	
+.hover-stumbleupon-color, 	
+.hover-yahoo-color, 		
+.hover-blogger-color, 		
+.hover-soundcloud-color,
+.hover-mail-color,
+.hover-twitter-bg,
+.hover-facebook-bg, 	
+.hover-google-plus-bg, 	
+.hover-pinterest-bg, 	
+.hover-linkedin-bg, 	
+.hover-youtube-bg, 		
+.hover-vimeo-bg, 		
+.hover-tumblr-bg, 		
+.hover-instagram-bg, 	
+.hover-flickr-bg, 		
+.hover-dribbble-bg,
+.hover-quora-bg, 		
+.hover-foursquare-bg, 	
+.hover-forrst-bg, 		
+.hover-vk-bg, 			
+.hover-wordpress-bg, 	
+.hover-stumbleupon-bg, 	
+.hover-yahoo-bg, 		
+.hover-blogger-bg, 		
+.hover-soundcloud-bg,
+.hover-mail-bg 
+{
+	@include transition;
+}
+
+/*-----  Text Hover Style  ------*/
+.hover-twitter-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-twitter !important;
+	}
+}
+
+.hover-facebook-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-facebook !important;
+	}
+}
+
+.hover-google-plus-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $google-brand-plus !important;
+	}
+} 
+
+.hover-pinterest-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-pinterest !important;
+	}
+}
+
+.hover-linkedin-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-linkedin !important;
+	}
+}
+
+.hover-youtube-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-youtube !important;
+	}
+}
+
+.hover-vimeo-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-vimeo !important;
+	}
+}		
+
+.hover-tumblr-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-tumblr !important;
+	}
+}		
+
+.hover-instagram-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-instagram !important;
+	}
+} 	
+
+.hover-flickr-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-flickr !important;
+	}
+} 		
+
+.hover-dribbble-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-dribbble !important;
+	}
+}
+
+.hover-quora-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-quora !important;
+	}
+} 		
+
+.hover-foursquare-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-foursquare !important;
+	}
+} 	
+
+.hover-forrst-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-forrst !important;
+	}
+} 		
+
+.hover-vk-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-vk !important;
+	}
+} 			
+
+.hover-wordpress-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-wordpress !important;
+	}
+} 	
+
+.hover-stumbleupon-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-stumbleupon !important;
+	}
+} 	
+
+.hover-yahoo-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-yahoo !important;
+	}
+} 		
+
+.hover-blogger-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-blogger !important;
+	}
+} 		
+
+.hover-soundcloud-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: $brand-soundcloud !important;
+	}
+}
+
+.hover-mail-color 
+{
+	&:hover, &:active, &:focus 
+	{
+		color: #111 !important;
+	}
+}
+
+/*-----  Background Hover Style  ------*/
+
+.hover-twitter-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-twitter !important;
+	}
+}
+
+.hover-facebook-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-facebook !important;
+	}
+}
+
+.hover-google-plus-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $google-brand-plus !important;
+	}
+} 
+
+.hover-pinterest-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-pinterest !important;
+	}
+}
+
+.hover-linkedin-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-linkedin !important;
+	}
+}
+
+.hover-youtube-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-youtube !important;
+	}
+}
+
+.hover-vimeo-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-vimeo !important;
+	}
+}		
+
+.hover-tumblr-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-tumblr !important;
+	}
+}		
+
+.hover-instagram-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-instagram !important;
+	}
+} 	
+
+.hover-flickr-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-flickr !important;
+	}
+} 		
+
+.hover-dribbble-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-dribbble !important;
+	}
+}
+
+.hover-quora-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-quora !important;
+	}
+} 		
+
+.hover-foursquare-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-foursquare !important;
+	}
+} 	
+
+.hover-forrst-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-forrst !important;
+	}
+} 		
+
+.hover-vk-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-vk !important;
+	}
+} 			
+
+.hover-wordpress-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-wordpress !important;
+	}
+} 	
+
+.hover-stumbleupon-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-stumbleupon !important;
+	}
+} 	
+
+.hover-yahoo-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-yahoo !important;
+	}
+} 		
+
+.hover-blogger-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-blogger !important;
+	}
+} 		
+
+.hover-soundcloud-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: $brand-soundcloud !important;
+	}
+}
+
+.hover-mail-bg 
+{
+	&:hover, &:active, &:focus 
+	{
+		background: #111 !important;
+	}
+}
+
+/*-----  Text Style  ------*/
+.brand-twitter-color 
+{
+	color: $brand-twitter !important;
+}
+
+.brand-facebook-color 
+{
+	color: $brand-facebook !important;
+}
+
+.brand-google-plus-color 
+{
+	color: $google-brand-plus !important;
+} 
+
+.brand-pinterest-color 
+{
+	color: $brand-pinterest !important;
+}
+
+.brand-linkedin-color 
+{
+	color: $brand-linkedin !important;
+}
+
+.brand-youtube-color 
+{
+	color: $brand-youtube !important;
+}
+
+.brand-vimeo-color 
+{
+	color: $brand-vimeo !important;
+}		
+
+.brand-tumblr-color 
+{
+	color: $brand-tumblr !important;
+}		
+
+.brand-instagram-color 
+{
+	color: $brand-instagram !important;
+} 	
+
+.brand-flickr-color 
+{
+	color: $brand-flickr !important;
+} 		
+
+.brand-dribbble-color 
+{
+	color: $brand-dribbble !important;
+}
+
+.brand-quora-color 
+{
+	color: $brand-quora !important;
+} 		
+
+.brand-foursquare-color 
+{
+	color: $brand-foursquare !important;
+} 	
+
+.brand-forrst-color 
+{
+	color: $brand-forrst !important;
+} 		
+
+.brand-vk-color 
+{
+	color: $brand-vk !important;
+} 			
+
+.brand-wordpress-color 
+{
+	color: $brand-wordpress !important;
+} 	
+
+.brand-stumbleupon-color 
+{
+	color: $brand-stumbleupon !important;
+} 	
+
+.brand-yahoo-color 
+{
+	color: $brand-yahoo !important;
+} 		
+
+.brand-blogger-color 
+{
+	color: $brand-blogger !important;
+} 		
+
+.brand-soundcloud-color 
+{
+	color: $brand-soundcloud !important;
+}
+
+.brand-mail-color 
+{
+	color: #111 !important;
+}
+
+/*-----  Background Style  ------*/
+
+.brand-twitter-bg 
+{
+	background: $brand-twitter !important;
+}
+
+.brand-facebook-bg 
+{
+	background: $brand-facebook !important;
+}
+
+.brand-google-plus-bg 
+{
+	background: $google-brand-plus !important;
+} 
+
+.brand-pinterest-bg 
+{
+	background: $brand-pinterest !important;
+}
+
+.brand-linkedin-bg 
+{
+	background: $brand-linkedin !important;
+}
+
+.brand-youtube-bg 
+{
+	background: $brand-youtube !important;
+}
+
+.brand-vimeo-bg 
+{
+	background: $brand-vimeo !important;
+}		
+
+.brand-tumblr-bg 
+{
+	background: $brand-tumblr !important;
+}		
+
+.brand-instagram-bg 
+{
+	background: $brand-instagram !important;
+} 	
+
+.brand-flickr-bg 
+{
+	background: $brand-flickr !important;
+} 		
+
+.brand-dribbble-bg 
+{
+	background: $brand-dribbble !important;
+}
+
+.brand-quora-bg 
+{
+	background: $brand-quora !important;
+} 		
+
+.brand-foursquare-bg 
+{
+	background: $brand-foursquare !important;
+} 	
+
+.brand-forrst-bg 
+{
+	background: $brand-forrst !important;
+} 		
+
+.brand-vk-bg 
+{
+	background: $brand-vk !important;
+} 			
+
+.brand-wordpress-bg 
+{
+	background: $brand-wordpress !important;
+} 	
+
+.brand-stumbleupon-bg 
+{
+	background: $brand-stumbleupon !important;
+} 	
+
+.brand-yahoo-bg 
+{
+	background: $brand-yahoo !important;
+} 		
+
+.brand-blogger-bg 
+{
+	background: $brand-blogger !important;
+} 		
+
+.brand-soundcloud-bg 
+{
+	background: $brand-soundcloud !important;
+}
+
+.brand-mail-bg 
+{
+	background: #111 !important;
+}

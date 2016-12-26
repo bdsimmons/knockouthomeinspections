@@ -1,0 +1,85 @@
+/*==========  Font Variables  ==========*/
+
+$font-primary				: 'Raleway', sans-serif;
+$font-secondary				: 'Roboto', sans-serif;
+$sub-font-01				: 'Open Sans', sans-serif;
+// $sub-font-02				: ;
+
+/*==========  Color Variables  ==========*/
+
+/*-----  Default Variables  -----*/
+
+$white-color				: #fff !default;
+$black-color				: #000 !default;
+
+/*-----  Unsorted Variables  -----*/
+
+$color-01					: #191919;
+// $color-02					: #;
+
+/*-----  Brands Variables  -----*/
+
+/* Brand Primary */
+$brand-primary-01			: #09a1f7;
+$brand-primary-02			: #2e566f;
+$brand-primary-03			: #48718d;
+$brand-primary-04			: #1fa3ff;
+
+/* Brand Warning */
+// $brand-warning-01			: #;
+// $brand-warning-02			: #;
+
+/* Brand Danger */
+// $brand-danger-01				: #;
+// $brand-danger-02				: #;
+
+/* Brand Gray */
+$brand-gray-01				: #616161;
+$brand-gray-02				: #6f6f6f;
+$brand-gray-03				: #8e8e8e;
+$brand-gray-04				: #9b9b9b;
+$brand-gray-05				: #ececec;				
+$brand-gray-06				: #313131;
+$brand-gray-07				: #f6f6f6;
+$brand-gray-08				: #666666;
+$brand-gray-09				: #e6e6e6;
+$brand-gray-10				: #707070;
+$brand-gray-11				: #d9d9d9;
+$brand-gray-12				: #8e8e8e;
+$brand-gray-13				: #f1f1f1;
+$brand-gray-14				: #969595;
+$brand-gray-16				: #2d2d2d;
+$brand-gray-17				: #919191;
+$brand-gray-18				: #3a3a3a;
+$brand-gray-19				: #6b6b6b;
+$brand-gray-20				: #4a4a4a;
+$brand-gray-21				: #8c8c8c;
+// $brand-gray-22				: #;
+// $brand-gray-23				: #;
+// $brand-gray-24				: #;
+// $brand-gray-25				: #;
+
+/*==========  Font Weight Variables  ==========*/
+
+$weight-hairline 			: 100;
+$weight-light	 			: 300;
+$weight-regular 			: 400;
+$weight-semibold 			: 600;
+$weight-bold	 			: 700;
+$weight-extrabold	 		: 900;
+
+/*==========  Font Size Variables  ==========*/
+
+$font-size 					: 16px;
+$font-size-xs				: $font-size * 0.75;	// 12px
+$font-size-sm				: $font-size * 0.875;	// 14px
+$font-size-md				: $font-size * 1.125;	// 18px
+$font-size-lg				: $font-size * 1.25;	// 20px
+$font-size-xl				: $font-size * 2.5;		// 40px
+$font-size-xxl				: $font-size * 3.75;	// 60px
+
+/*==========  Responsive Breakpoint Variables  ==========*/
+
+$screen-xxs-max				: 480px;
+$screen-xs-sm-max			: 650px;
+$screen-lg-max				: 1600px;

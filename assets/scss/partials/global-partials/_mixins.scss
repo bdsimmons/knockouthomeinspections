@@ -1,0 +1,208 @@
+@import "variables";
+@import "../plugins/bootstrap/assets/stylesheets/bootstrap/variables";
+@import "../plugins/bootstrap/assets/stylesheets/bootstrap/mixins";
+
+/*==========  Transition Mixins  ==========*/
+
+@mixin transition($element : all, $duration : 0.3s, $animation : linear)
+{
+	-webkit-transition: $element $duration $animation;
+	-moz-transition: $element $duration $animation;
+	-ms-transition: $element $duration $animation;
+	-o-transition: $element $duration $animation;
+	transition: $element $duration $animation;
+}
+
+/*==========  Fonts Mixins  ==========*/
+
+@mixin font($font-size, $font-weight, $line-height, $color) 
+{
+	font-size: $font-size;
+	font-weight: $font-weight;
+	line-height: $line-height;
+	color: $color;
+}
+
+@mixin font-fa($font-size, $font-weight, $line-height, $color) 
+{
+	font-family: 'FontAwesome';
+	@include font($font-size, $font-weight, $line-height, $color);
+}
+
+@mixin font-p($font-size, $font-weight, $line-height, $color) 
+{
+	font-family: $font-primary;
+	@include font($font-size, $font-weight, $line-height, $color);
+}
+
+@mixin font-s($font-size, $font-weight, $line-height, $color) 
+{
+	font-family: $font-secondary;
+	@include font($font-size, $font-weight, $line-height, $color);
+}
+
+@mixin sub-font-01($font-size, $font-weight, $line-height, $color) 
+{
+	font-family: $sub-font-01;
+	@include font($font-size, $font-weight, $line-height, $color);
+}
+
+@mixin sub-font-02($font-size, $font-weight, $line-height, $color) 
+{
+	font-family: $sub-font-02;
+	@include font($font-size, $font-weight, $line-height, $color);
+}
+
+/*==========  Border Radius Mixins  ==========*/
+
+@mixin border-radius($radius) 
+{
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+	background-clip: padding-box;
+}
+
+@mixin border-radius-all($top-left, $top-right, $bottom-right, $bottom-left) 
+{
+	-webkit-border-radius: $top-left $top-right $bottom-right $bottom-left;
+	border-radius: $top-left $top-right $bottom-right $bottom-left;
+	background-clip: $top-left $top-right $bottom-right $bottom-left;
+}
+
+@mixin border-top-radius($radius) 
+{
+	-webkit-border-top-right-radius: $radius;
+	border-top-right-radius: $radius;
+	-webkit-border-top-left-radius: $radius;
+	border-top-left-radius: $radius;
+	background-clip: padding-box;
+}
+
+@mixin border-right-radius($radius) 
+{
+	-webkit-border-bottom-right-radius: $radius;
+	border-bottom-right-radius: $radius;
+	-webkit-border-top-right-radius: $radius;
+	border-top-right-radius: $radius;
+	background-clip: padding-box;
+}
+
+@mixin border-bottom-radius($radius) 
+{
+	-webkit-border-bottom-right-radius: $radius;
+	border-bottom-right-radius: $radius;
+	-webkit-border-bottom-left-radius: $radius;
+	border-bottom-left-radius: $radius;
+	background-clip: padding-box;
+}
+
+@mixin border-left-radius($radius) 
+{
+	-webkit-border-bottom-left-radius: $radius;
+	border-bottom-left-radius: $radius;
+	-webkit-border-top-left-radius: $radius;
+	border-top-left-radius: $radius;
+	background-clip: padding-box;
+}
+
+/*==========  Transform Mixins  ==========*/
+
+@mixin transform-origin($x, $y)
+{
+	-webkit-transform-origin: $x $y;
+	-moz-transform-origin: $x $y;
+	-ms-transform-origin: $x $y;
+	-o-transform-origin: $x $y;
+	transform-origin: $x $y;
+}
+
+@mixin scale($x, $y)
+{
+	-webkit-transform: scale($x, $y);
+	-moz-transform: scale($x, $y);
+	-ms-transform: scale($x, $y);
+	-o-transform: scale($x, $y);
+	transform: scale($x, $y);
+}
+
+@mixin scaleX($ratio)
+{
+	-webkit-transform: scaleX($ratio);
+	-moz-transform: scaleX($ratio);
+	-ms-transform: scaleX($ratio);
+	-o-transform: scaleX($ratio);
+	transform: scaleX($ratio);
+}
+
+@mixin scaleY($ratio)
+{
+	-webkit-transform: scaleY($ratio);
+	-moz-transform: scaleY($ratio);
+	-ms-transform: scaleY($ratio);
+	-o-transform: scaleY($ratio);
+	transform: scaleY($ratio);
+}
+
+@mixin translateX($trX)
+{
+	-webkit-transform: translateX($trX);
+	-moz-transform: translateX($trX);
+	-ms-transform: translateX($trX);
+	-o-transform: translateX($trX);
+	transform: translateX($trX);
+}
+
+@mixin translateY($trY)
+{
+	-webkit-transform: translateY($trY);
+	-moz-transform: translateY($trY);
+	-ms-transform: translateY($trY);
+	-o-transform: translateY($trY);
+	transform: translateY($trY);
+}
+
+@mixin translate($trX, $trY)
+{
+	-webkit-transform: translate($trX, $trY);
+	-moz-transform: translate($trX, $trY);
+	-ms-transform: translate($trX, $trY);
+	-o-transform: translate($trX, $trY);
+	transform: translate($trX, $trY);
+}
+
+@mixin rotate($deg) 
+{
+	-webkit-transform: rotate($deg);
+	-moz-transform: rotate($deg);
+	-ms-transform: rotate($deg);
+	-o-transform: rotate($deg);
+	transform: rotate($deg);
+}
+
+/*==========  Opacity Mixin  ==========*/
+
+@mixin opacity($op) 
+{
+	-webkit-opacity: $op;
+	-khtml-opacity: $op;
+	-moz-opacity: $op;
+	-ms-opacity: $op;
+	-o-opacity: $op;
+	opacity: $op;
+}
+
+/*==========  Shadow Mixins  ==========*/
+
+@mixin box-shadow($horizontal, $vertical, $blur, $angle, $color) 
+{
+	-webkit-box-shadow: $horizontal $vertical $blur $angle $color;
+	-moz-box-shadow: $horizontal $vertical $blur $angle $color;
+	box-shadow: $horizontal $vertical $blur $angle $color;
+}
+
+@mixin inset-box-shadow($horizontal, $vertical, $blur, $angle, $color) 
+{
+	-webkit-box-shadow: inset $horizontal $vertical $blur $angle $color;
+	-moz-box-shadow: inset $horizontal $vertical $blur $angle $color;
+	box-shadow: inset $horizontal $vertical $blur $angle $color;
+}

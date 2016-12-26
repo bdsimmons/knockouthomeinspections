@@ -1,0 +1,332 @@
+body
+{
+	overflow-x: hidden;
+
+	@include font-p($font-size, $weight-regular, $font-size * 1.2, $black-color);
+}
+
+/*==========  Container  ==========*/
+
+.container
+{
+	width: 1200px;
+	padding: 0 15px;
+
+	@media(max-width: $screen-lg-max) {
+		width: 1170px;
+	}
+
+	@media(max-width: $screen-md-max) {
+		width: 970px;
+	}
+
+	@media(max-width: $screen-sm-max) {
+		width: 750px;
+	}
+
+	@media(max-width: $screen-xs-max) {
+		width: auto;
+	}
+}
+
+/*==========  Global Head/Title  ==========*/
+
+.global-head-container
+{
+	.head-wrapper
+	{
+		@media(max-width: $screen-xs-max) {
+			margin: auto;
+		}
+	}
+
+	&.head-center
+	{
+		text-align: center;
+
+		.head-border
+		{
+			margin: auto;
+		}
+	}
+
+	&.head-left
+	{
+		text-align: left;
+
+		@media(max-width: $screen-xs-max) {
+			text-align: center;
+
+			.head-border
+			{
+				margin: auto;
+			}
+		}
+	}
+
+	&.theme-dark
+	{
+		.head-subtitle
+		{
+			h3
+			{
+				color: $brand-primary-03;
+			}
+		}
+
+		.head-title
+		{
+			h2
+			{
+				color: $brand-primary-03;
+			}
+		}
+
+		.head-quote
+		{
+			p
+			{
+				color: $brand-gray-02;
+			}
+		}
+
+		.head-border
+		{
+			background: $brand-primary-03;
+		}
+	}
+
+	&.theme-light
+	{
+		.head-subtitle
+		{
+			h3
+			{
+				color: $white-color;
+			}
+		}
+
+		.head-title
+		{
+			h2
+			{
+				color: $white-color;
+			}
+		}
+
+		.head-quote
+		{
+			p
+			{
+				color: $white-color;
+			}
+		}
+
+		.head-border
+		{
+			background: $white-color;
+		}
+	}
+
+	.head-subtitle
+	{
+		margin-bottom: 10px;
+
+		h3
+		{
+			@include font-p($font-size-lg, $weight-semibold, $font-size-lg * 1.3, $black-color);
+		}
+	}
+
+	.head-title
+	{
+		margin-bottom: 20px;
+
+		h2
+		{
+			letter-spacing: 1px;
+			text-transform: uppercase;
+
+			@include font-p($font-size-lg * 1.8, $weight-extrabold, $font-size-xl * 1.1, $black-color);
+		}
+
+		@media(max-width: $screen-xs-max) {
+			margin-bottom: 15px;
+
+			h2
+			{
+				@include font-p($font-size-lg * 1.4, $weight-extrabold, $font-size-lg * 1.7, $black-color);
+			}
+		}
+	}
+
+	.head-quote
+	{
+		margin-bottom: 25px;
+
+		p
+		{
+			@include font-p($font-size-sm, $weight-regular, $font-size-lg * 1.4, $black-color);
+		}
+
+		@media(max-width: $screen-xs-max) {
+			margin-bottom: 15px;
+		}
+	}
+
+	.head-border
+	{
+		width: 70px;
+		height: 3px;
+		background: $black-color;
+	}
+}
+
+
+/*==========  Buttons  ==========*/
+
+.btn
+{
+	border: 0;
+
+	@include border-radius(0);
+
+	&.btn-primary
+	{
+		background: $brand-primary-02;
+
+		&:hover, &:active, &:focus
+		{
+			background: darken($brand-primary-02, 5%);
+		}
+	}
+
+	&.btn-info
+	{
+		background: $brand-primary-01;
+
+		&:hover, &:active, &:focus
+		{
+			background: darken($brand-primary-01, 5%);
+		}
+	}
+
+	&.btn-special
+	{
+		&.btn-primary
+		{
+			position: relative;
+			overflow: hidden;
+			z-index: 5;
+
+			@include translate(0, 0);
+
+			&:before
+			{
+				content: '';
+				position: absolute;
+				top: 0;
+				right: -855px;
+				height: 1000px;
+				width: 1000px;
+				background: $brand-primary-01;
+				z-index: -1;
+
+				@include transition;
+				@include rotate(15deg);
+			}
+
+			&:hover, &:active, &:focus
+			{
+				&:before
+				{
+					right: -500px;
+
+					@include rotate(0);
+				}
+			}
+		}
+	}
+}
+
+/*==========  Bootstrap Row/Col  ==========*/
+
+.row-12
+{
+	margin-right: -12px;
+	margin-left: -12px;
+
+	> .col
+	{
+		padding-right: 12px;
+		padding-left: 12px;
+	}
+}
+
+.row-60
+{
+	margin-right: -60px;
+	margin-left: -60px;
+
+	> .col
+	{
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+
+	@media(max-width: $screen-lg-max) {
+		margin-right: -30px;
+		margin-left: -30px;
+
+		> .col
+		{
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+	}
+
+	@media(max-width: $screen-sm-max) {
+		margin-right: -15px;
+		margin-left: -15px;
+
+		> .col
+		{
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+	}
+}
+
+.row-40
+{
+	margin-right: -40px;
+	margin-left: -40px;
+
+	> .col
+	{
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+
+	@media(max-width: $screen-lg-max) {
+		margin-right: -30px;
+		margin-left: -30px;
+
+		> .col
+		{
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+	}
+
+	@media(max-width: $screen-sm-max) {
+		margin-right: -15px;
+		margin-left: -15px;
+
+		> .col
+		{
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+	}
+}

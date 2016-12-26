@@ -1,0 +1,15 @@
+/*==========  Global Partials  ==========*/
+@import 'partials/global-partials/mixins';
+@import 'partials/global-partials/variables';
+@import 'partials/global-partials/custom_reset';
+
+/*==========  Common Partials  ==========*/
+@import 'partials/common-partials/header';
+@import 'partials/common-partials/footer';
+@import 'partials/common-partials/common';
+
+/*==========  Social Brands Partials  ==========*/
+@import "partials/social-brands-partial/social-icons-theme";
+
+/*==========  Page Partials  ==========*/
+@import 'partials/page-internal-partials/index';
