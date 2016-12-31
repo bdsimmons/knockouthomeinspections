@@ -694,10 +694,21 @@
 
 /*==========  Services  ==========*/
 
+.service-list {
+	color: #6f6f6f;
+	li {
+		list-style: none;
+		font-size: 1.1em;
+		margin: 5%;
+	}
+}
+
+
+
 .knockout-services-container
 {
 	padding: 120px 0;
-	background: url('../images/services-banner.png') no-repeat center center;
+	background: linear-gradient(rgba(0,0,0,0.78), rgba(0,0,0,0.78)), rgba(0,0,0,0.78) url('../images/beachhouse.png') no-repeat center center;
 	-webkit-background-size: cover;
 	background-size: cover;
 
