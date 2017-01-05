@@ -121,8 +121,8 @@
 
 .knockout-features-container
 {
-	padding-top: 20px;
-	padding-bottom: 100px; /* add extra 35px padding to each block */
+	padding-top: 100px;
+ /*	padding-bottom: 100px;  add extra 35px padding to each block */
 
 	.head
 	{
@@ -618,9 +618,11 @@
 			}
 		}
 
+		
 		.about-knockout-container
 		{
 			margin-bottom: 35px;
+		
 
 			.block-subtitle
 			{
