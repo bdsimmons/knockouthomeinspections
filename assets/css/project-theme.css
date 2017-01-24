@@ -213,6 +213,10 @@ nav.navbar .navbar-header button.navbar-toggle {
       clear: both; } }
 
 /*==========  Common Partials  ==========*/
+.fortified-header {
+  background: url("../images/house2.jpeg") no-repeat center center;
+  background-size: cover; }
+
 header {
   position: relative;
   background: url("../images/house.jpg") no-repeat center center;
@@ -1400,6 +1404,13 @@ body {
       font-weight: 900;
       line-height: 16.8px;
       color: #fff; }
+
+/*========== video block =======*/
+.videoblock {
+  display: block;
+  width: 100%; }
+  .videoblock div {
+    display: inline; }
 
 /*==========  Features Container  ==========*/
 .knockout-features-container {
