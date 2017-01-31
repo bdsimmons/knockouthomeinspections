@@ -277,7 +277,7 @@ header {
       top: 0;
       left: 0;
       width: 100%;
-      background: #006838;
+      background: #02304a;
       padding: 10px 0;
       z-index: 9999;
       -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.7);
@@ -305,7 +305,7 @@ header {
       header .main-navbar-container nav.main-navbar .navbar-header .navbar-toggle:hover, header .main-navbar-container nav.main-navbar .navbar-header .navbar-toggle:active, header .main-navbar-container nav.main-navbar .navbar-header .navbar-toggle:focus {
         background: none; }
         header .main-navbar-container nav.main-navbar .navbar-header .navbar-toggle:hover .icon-bar, header .main-navbar-container nav.main-navbar .navbar-header .navbar-toggle:active .icon-bar, header .main-navbar-container nav.main-navbar .navbar-header .navbar-toggle:focus .icon-bar {
-          background: #006468; }
+          background: #0670ac; }
     @media (max-width: 1199px) {
       header .main-navbar-container nav.main-navbar .navbar-header .navbar-brand {
         margin-top: 0; } }
@@ -421,7 +421,7 @@ header {
             header .main-navbar-container nav.main-navbar .main-nav-container ul.main-nav > li:hover, header .main-navbar-container nav.main-navbar .main-nav-container ul.main-nav > li:active, header .main-navbar-container nav.main-navbar .main-nav-container ul.main-nav > li:focus {
               background: none; }
               header .main-navbar-container nav.main-navbar .main-nav-container ul.main-nav > li:hover > a, header .main-navbar-container nav.main-navbar .main-nav-container ul.main-nav > li:active > a, header .main-navbar-container nav.main-navbar .main-nav-container ul.main-nav > li:focus > a {
-                background: #006468; }
+                background: #0670ac; }
               header .main-navbar-container nav.main-navbar .main-nav-container ul.main-nav > li:hover > .sub-nav-container, header .main-navbar-container nav.main-navbar .main-nav-container ul.main-nav > li:active > .sub-nav-container, header .main-navbar-container nav.main-navbar .main-nav-container ul.main-nav > li:focus > .sub-nav-container {
                 display: none; } }
       @media (max-width: 991px) {
@@ -464,11 +464,11 @@ header {
           font-size: 14px;
           font-weight: 400;
           line-height: 16.8px;
-          color: #006838; }
+          color: #02304a; }
           header .main-navbar-container nav.main-navbar .sub-nav-container ul.sub-nav > li > a:hover, header .main-navbar-container nav.main-navbar .sub-nav-container ul.sub-nav > li > a:active, header .main-navbar-container nav.main-navbar .sub-nav-container ul.sub-nav > li > a:focus {
             color: #fff;
             text-decoration: none;
-            background: #006838; }
+            background: #02304a; }
       @media (max-width: 767px) {
         header .main-navbar-container nav.main-navbar .sub-nav-container {
           position: relative;
@@ -483,7 +483,7 @@ header {
           transform: translateX(0); }
           header .main-navbar-container nav.main-navbar .sub-nav-container ul.sub-nav {
             text-align: left;
-            background: #006468;
+            background: #0670ac;
             -webkit-box-shadow: 0 0 0 0 rgba(25, 25, 25, 0.7);
             -moz-box-shadow: 0 0 0 0 rgba(25, 25, 25, 0.7);
             box-shadow: 0 0 0 0 rgba(25, 25, 25, 0.7); }
@@ -507,7 +507,7 @@ header {
           line-height: 66px;
           color: #fff; }
           header .header-banner-container .banner-text-container .head-title h1 span {
-            color: #006468; }
+            color: #0670ac; }
         @media (max-width: 991px) {
           header .header-banner-container .banner-text-container .head-title h1 {
             font-family: "Raleway", sans-serif;
@@ -589,7 +589,7 @@ footer {
   footer .pre-footer-container {
     padding-top: 100px;
     padding-bottom: 45px;
-    background: #001c0f; }
+    background: #313131; }
     footer .pre-footer-container .pre-footer-blocks-container .pre-footer-block {
       margin-bottom: 30px; }
       footer .pre-footer-container .pre-footer-blocks-container .pre-footer-block.about-block {
@@ -668,7 +668,7 @@ footer {
           line-height: 18px;
           color: #969595; }
           footer .pre-footer-container .pre-footer-blocks-container .pre-footer-block.has-form .block-form form .form-group .form-control:focus {
-            border-bottom-color: #006468; }
+            border-bottom-color: #0670ac; }
         footer .pre-footer-container .pre-footer-blocks-container .pre-footer-block.has-form .block-form form .form-group textarea.form-control {
           height: auto;
           min-height: 100px; }
@@ -696,7 +696,7 @@ footer {
             line-height: 24px;
             color: #969595; }
             footer .pre-footer-container .pre-footer-blocks-container .pre-footer-block.twitter-block .block-feeds .twitter-feed a .feed p span {
-              color: #006468; }
+              color: #0670ac; }
         footer .pre-footer-container .pre-footer-blocks-container .pre-footer-block.twitter-block .block-feeds .twitter-feed a .timestamp p {
           font-family: "Raleway", sans-serif;
           font-size: 10.0008px;
@@ -721,7 +721,7 @@ footer {
         footer .pre-footer-container .pre-footer-blocks-container .pre-footer-block.twitter-block .block-feeds .twitter-feed a:hover, footer .pre-footer-container .pre-footer-blocks-container .pre-footer-block.twitter-block .block-feeds .twitter-feed a:active, footer .pre-footer-container .pre-footer-blocks-container .pre-footer-block.twitter-block .block-feeds .twitter-feed a:focus {
           text-decoration: none; }
           footer .pre-footer-container .pre-footer-blocks-container .pre-footer-block.twitter-block .block-feeds .twitter-feed a:hover:before, footer .pre-footer-container .pre-footer-blocks-container .pre-footer-block.twitter-block .block-feeds .twitter-feed a:active:before, footer .pre-footer-container .pre-footer-blocks-container .pre-footer-block.twitter-block .block-feeds .twitter-feed a:focus:before {
-            color: #006468; }
+            color: #0670ac; }
       footer .pre-footer-container .pre-footer-blocks-container .pre-footer-block.twitter-block .block-feeds .twitter-feed:last-child a {
         margin-bottom: 0;
         padding-bottom: 0;
@@ -746,7 +746,7 @@ footer {
         padding-bottom: 15px; } }
   footer .post-footer-container {
     padding: 22px 0;
-    background: #193226; }
+    background: #2d2d2d; }
     footer .post-footer-container .post-footer-contents:before, footer .post-footer-container .post-footer-contents:after {
       content: " ";
       display: table; }
@@ -837,13 +837,13 @@ body {
       .global-head-container.head-left .head-border {
         margin: auto; } }
 .global-head-container.theme-dark .head-subtitle h3 {
-  color: #32865f; }
+  color: #48718d; }
 .global-head-container.theme-dark .head-title h2 {
-  color: #32865f; }
+  color: #48718d; }
 .global-head-container.theme-dark .head-quote p {
   color: #6f6f6f; }
 .global-head-container.theme-dark .head-border {
-  background: #32865f; }
+  background: #48718d; }
 .global-head-container.theme-light .head-subtitle h3 {
   color: #fff; }
 .global-head-container.theme-light .head-title h2 {
@@ -902,13 +902,13 @@ body {
   border-radius: 0;
   background-clip: padding-box; }
   .btn.btn-primary {
-    background: #006838; }
+    background: #02304a; }
     .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-      background: #004f2a; }
+      background: #012031; }
   .btn.btn-info {
-    background: #006468; }
+    background: #0670ac; }
     .btn.btn-info:hover, .btn.btn-info:active, .btn.btn-info:focus {
-      background: #004b4f; }
+      background: #056093; }
   .btn.btn-special.btn-primary {
     position: relative;
     overflow: hidden;
@@ -925,7 +925,7 @@ body {
       right: -855px;
       height: 1000px;
       width: 1000px;
-      background: #006468;
+      background: #0670ac;
       z-index: -1;
       -webkit-transition: all 0.3s linear;
       -moz-transition: all 0.3s linear;
@@ -1307,7 +1307,7 @@ body {
 /*==========  Page Partials  ==========*/
 /*==========  Estimate Form  ==========*/
 .estimate-form-container .estimate-form-inner {
-  background: #006838;
+  background: #02304a;
   padding: 35px 15px;
   padding-bottom: 15px; }
 .estimate-form-container .estimate-form-wrapper {
@@ -1342,7 +1342,7 @@ body {
       height: 45px;
       padding: 10px 15px;
       background: none;
-      border: 1px solid #32865f;
+      border: 1px solid #48718d;
       -webkit-transition: all 0.3s linear;
       -moz-transition: all 0.3s linear;
       -ms-transition: all 0.3s linear;
@@ -1364,7 +1364,7 @@ body {
       .estimate-form-container form .form-group .form-control::-webkit-input-placeholder {
         color: #fff; }
       .estimate-form-container form .form-group .form-control:focus {
-        border-color: #006468; }
+        border-color: #0670ac; }
     .estimate-form-container form .form-group .selectpicker-container .bootstrap-select {
       width: 100%; }
       .estimate-form-container form .form-group .selectpicker-container .bootstrap-select .btn {
@@ -1372,7 +1372,7 @@ body {
         padding: 15px;
         padding-right: 20px;
         background: none;
-        border: 1px solid #32865f;
+        border: 1px solid #48718d;
         outline: 0 !important;
         -webkit-box-shadow: 0 0 0 0 #fff;
         -moz-box-shadow: 0 0 0 0 #fff;
@@ -1386,7 +1386,7 @@ body {
         line-height: 16.8px;
         color: #fff; }
         .estimate-form-container form .form-group .selectpicker-container .bootstrap-select .btn:hover, .estimate-form-container form .form-group .selectpicker-container .bootstrap-select .btn:active, .estimate-form-container form .form-group .selectpicker-container .bootstrap-select .btn:focus {
-          border-color: #006468;
+          border-color: #0670ac;
           -webkit-box-shadow: 0 0 0 0 #fff;
           -moz-box-shadow: 0 0 0 0 #fff;
           box-shadow: 0 0 0 0 #fff;
@@ -1463,7 +1463,7 @@ body {
         display: block;
         width: 55px;
         height: 55px;
-        background: #006468;
+        background: #0670ac;
         -webkit-border-radius: 50%;
         border-radius: 50%;
         background-clip: padding-box; }
@@ -1491,7 +1491,7 @@ body {
         font-size: 22px;
         font-weight: 700;
         line-height: 26px;
-        color: #32865f; }
+        color: #48718d; }
       @media (max-width: 480px) {
         .knockout-features-container .body .feature-blocks-container .feature-block .block-title {
           margin-bottom: 10px; } }
@@ -1530,10 +1530,10 @@ body {
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
-        color: #006468; }
+        color: #0670ac; }
       .knockout-features-container .body .feature-blocks-container .feature-block .block-link a:hover, .knockout-features-container .body .feature-blocks-container .feature-block .block-link a:active, .knockout-features-container .body .feature-blocks-container .feature-block .block-link a:focus {
         text-decoration: none;
-        color: #006468; }
+        color: #0670ac; }
         .knockout-features-container .body .feature-blocks-container .feature-block .block-link a:hover .fa, .knockout-features-container .body .feature-blocks-container .feature-block .block-link a:active .fa, .knockout-features-container .body .feature-blocks-container .feature-block .block-link a:focus .fa {
           -webkit-transform: translateX(5px);
           -moz-transform: translateX(5px);
@@ -1589,7 +1589,7 @@ body {
             font-size: 18px;
             font-weight: 700;
             line-height: 21.6px;
-            color: #001c0f; }
+            color: #313131; }
           @media (max-width: 1199px) {
             .knockout-skills-container .body .skills-carousel-container .skills-carousel .item .item-contents .block-title {
               padding: 20px 30px; } }
@@ -1602,7 +1602,7 @@ body {
                 font-size: 16px;
                 font-weight: 700;
                 line-height: 19.2px;
-                color: #001c0f; } }
+                color: #313131; } }
         .knockout-skills-container .body .skills-carousel-container .skills-carousel .item .item-contents:hover .block-image .img-responsive, .knockout-skills-container .body .skills-carousel-container .skills-carousel .item .item-contents:active .block-image .img-responsive, .knockout-skills-container .body .skills-carousel-container .skills-carousel .item .item-contents:focus .block-image .img-responsive {
           -webkit-filter: grayscale(100%);
           -o-filter: grayscale(100%);
@@ -1702,7 +1702,7 @@ body {
         font-size: 24px;
         font-weight: 700;
         line-height: 26px;
-        color: #006838; }
+        color: #02304a; }
       @media (max-width: 650px) {
         .latest-news-about-knockout-container .body .latest-news-container .latest-news-row .block-text .block-text-head .block-title {
           float: none;
@@ -1760,7 +1760,7 @@ body {
         font-size: 30px;
         font-weight: 900;
         line-height: 40px;
-        color: #32865f; }
+        color: #48718d; }
       @media (max-width: 767px) {
         .latest-news-about-knockout-container .body .about-knockout-container .block-title {
           margin-bottom: 15px; }
@@ -1769,7 +1769,7 @@ body {
             font-size: 24px;
             font-weight: 900;
             line-height: 30px;
-            color: #32865f; } }
+            color: #48718d; } }
     .latest-news-about-knockout-container .body .about-knockout-container .block-description {
       margin-bottom: 30px; }
       .latest-news-about-knockout-container .body .about-knockout-container .block-description p {
@@ -1813,7 +1813,7 @@ body {
       max-width: 650px;
       width: 100%; }
     .knockout-services-container .head .head-border {
-      background: #32865f; }
+      background: #48718d; }
     @media (max-width: 991px) {
       .knockout-services-container .head {
         margin-bottom: 50px; } }
@@ -1853,7 +1853,7 @@ body {
           display: block;
           width: 55px;
           height: 55px;
-          background: #006468;
+          background: #0670ac;
           -webkit-border-radius: 50%;
           border-radius: 50%;
           background-clip: padding-box; }
@@ -1938,7 +1938,7 @@ body {
         font-size: 18px;
         font-weight: 700;
         line-height: 21.6px;
-        color: #006838; }
+        color: #02304a; }
       @media (max-width: 1199px) {
         .knockout-team-container .body .team-blocks-container .team-block .block-text .block-title {
           padding: 20px 10px; } }
@@ -2063,7 +2063,7 @@ body {
           display: block;
           width: 55px;
           height: 55px;
-          background: #006468;
+          background: #0670ac;
           -webkit-border-radius: 50%;
           border-radius: 50%;
           background-clip: padding-box; }
@@ -2089,7 +2089,7 @@ body {
           font-size: 20px;
           font-weight: 700;
           line-height: 26px;
-          color: #32865f; }
+          color: #48718d; }
       .knockout-services-pesticides-container .body .services-blocks-container .service-block .block-description {
         padding-top: 10px;
         padding-bottom: 20px; }
@@ -2168,7 +2168,7 @@ body {
             font-size: 18px;
             font-weight: 700;
             line-height: 23.4px;
-            color: #32865f; }
+            color: #48718d; }
     .knockout-services-pesticides-container .body .pesticide-blocks-container .pesticide-block:hover .block-hover, .knockout-services-pesticides-container .body .pesticide-blocks-container .pesticide-block:active .block-hover, .knockout-services-pesticides-container .body .pesticide-blocks-container .pesticide-block:focus .block-hover {
       -webkit-opacity: 1;
       -khtml-opacity: 1;
@@ -2260,7 +2260,7 @@ body {
             font-size: 14px;
             font-weight: 300;
             line-height: 16.8px;
-            color: #006468; }
+            color: #0670ac; }
             .clients-testonomials-container .body .testionmials-container .testonomial-block .user-details .user-name p span {
               color: #969595; }
         @media (max-width: 767px) {
