@@ -5,6 +5,7 @@
 /*-----  Unsorted Variables  -----*/
 /*-----  Brands Variables  -----*/
 /* Brand Primary */
+/* Fortified Landing Green */
 /* Brand Warning */
 /* Brand Danger */
 /* Brand Gray */
@@ -23,6 +24,7 @@
 /*-----  Unsorted Variables  -----*/
 /*-----  Brands Variables  -----*/
 /* Brand Primary */
+/* Fortified Landing Green */
 /* Brand Warning */
 /* Brand Danger */
 /* Brand Gray */
@@ -216,6 +218,9 @@ nav.navbar .navbar-header button.navbar-toggle {
 .fortified-header {
   background: url("../images/house2.jpeg") no-repeat center center;
   background-size: cover; }
+
+.main-navbar-container.fortified-nav.nav-sticked {
+  background: #006838; }
 
 header {
   position: relative;
@@ -586,6 +591,10 @@ header {
 footer {
   /*==========  Pre Footer  ==========*/
   /*==========  Post Footer  ==========*/ }
+  footer .pre-footer-container.fortified {
+    background: #001c0f; }
+  footer .post-footer-container.fortified {
+    background: #193226; }
   footer .pre-footer-container {
     padding-top: 100px;
     padding-bottom: 45px;
@@ -803,6 +812,20 @@ body {
   font-weight: 400;
   line-height: 19.2px;
   color: #000; }
+
+.fortified-heading {
+  color: #193226 !important; }
+
+.btn.btn-primary.fortified {
+  background: #193226; }
+
+.keyIcon {
+  float: left; }
+  .keyIcon img {
+    width: 65%; }
+
+.block-description.fortified {
+  margin-left: 22%; }
 
 /*==========  Container  ==========*/
 .container {

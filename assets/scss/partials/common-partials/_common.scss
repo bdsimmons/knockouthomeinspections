@@ -5,6 +5,18 @@ body
 	@include font-p($font-size, $weight-regular, $font-size * 1.2, $black-color);
 }
 
+.fortified-heading { color: $green-dark !important; }
+
+.btn.btn-primary.fortified { background: $green-dark; }
+
+.keyIcon { float: left;
+
+    img {width: 65%;}
+}
+
+.block-description.fortified { margin-left: 22%;}
+
+
 /*==========  Container  ==========*/
 
 .container
